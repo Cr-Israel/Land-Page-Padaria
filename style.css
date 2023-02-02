@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-box {
+    background-image: url("./padaria.png"); 
+    height: 100vh;
+    background-size: cover;
+}
+
+.header {
+    padding-top: 28px;
+    padding-left: 35px;
+}
+
+.title-header {
+    font-size: 24px;
+    color: #FFFFFF;
+    display: inline;
+}
+
+.link-header {
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    color: #FFFFFF;
+    position: relative;
+    top: 250px;
+    margin-left: 35px;
+    z-index: 1000;
+    font-size: normal;
+    padding: 0px 20px 0px 20px;
+}
+
+.row {
+    width: 450px;
+    height: 80px;
+    background-color: #EB5757;
+    margin-left: 32px;
+    margin-top: 150px;
+    position: relative;
+    top: 30px;
+    border-radius: 15px;
+}
+
+form {
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 70px;
+    margin-top: -170px;
+    margin-left: 900;
+    
+}
+
+.mostrar-formulario {
+    opacity: 1;
+}
+
+
+input {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea {
+    display: block;
+    height: 80px;
+    width: 250px;
+    background: #F9F9F9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.title-form {
+    font-size: 24px;
+    color: #252b42;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    color: #252b42
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #40bb15;
+    color: #FFFFFF;
+    
+}
+
+.central-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.title-middle {
+    font-size: 40px;
+    color: #252b42;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #a9d6ff;
+}
+
+.title-card {
+    background: #219653;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.bottom-box {
+    background-color: #00095d;
+}
+
+.bottom-title {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bottom-paragraph {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+}
